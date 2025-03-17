@@ -35,6 +35,11 @@ Iniciar contenedor:
 docker run -it --rm -p 8080:8080 magm3333/http-server:latest
 ```
 
+Puerto customizado:
+```
+docker run -it --rm -p 8080:8888 -e MAGM_PORT=8888 magm3333/http-server:latest
+```
+
 Mapeo de ROOT PATH
 
 ```
