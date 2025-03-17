@@ -11,6 +11,9 @@ Sintáxis:
 > Default: 
 > `httpServer 0.0.0.0:8080 .
 
+Se soporta la variable `MAGM_PORT` para escuchar por un puerto diferente al 8080.
+Existe el servicio `/health`  para implementar healthcheking.
+
 Build:
 
 ```
