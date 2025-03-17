@@ -37,3 +37,5 @@ Mapeo de ROOT PATH
 ```
 docker run -it --rm -p 8080:8080 -v /path/to/serve:/www magm3333/http-server:latest
 ```
+
+Imagen Dockerhub:  https://hub.docker.com/r/magm3333/http-server
